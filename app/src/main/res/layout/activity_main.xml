@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details:"
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Type of Work you do!"
+        android:textAllCaps="true" />
+
+
+
+
+    <CheckBox
+        android:id="@+id/electrical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/plumbing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plumbing"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/Decorations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="decorations"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/Carpenting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="carpenting"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/mechanical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/beauty_Related"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beauty Related"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/painting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Painting"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cleaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleaning"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/software"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/home_Grooming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Grooming"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/gardening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gardening"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+
+
+    <CheckBox
+        android:id="@+id/teaching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teaching"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/continue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="150dp"
+        android:text="Continue" />
+
+
+
+</LinearLayout>
